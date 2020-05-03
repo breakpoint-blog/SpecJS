@@ -3,8 +3,8 @@
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![Build Status](https://travis-ci.com/breakpoint-blog/spec-js.svg?branch=master)](https://travis-ci.com/breakpoint-blog/spec-js)
-<!-- [![npm version](https://badge.fury.io/js/%40alfonsofilho%2Fspecjs.svg)](https://badge.fury.io/js/%40alfonsofilho%2Fspecjs)
-[![Try match-toy on RunKit](https://badge.runkitcdn.com/%40alfonsofilho%2Fspecjs.svg)](https://npm.runkit.com/%40alfonsofilho%2Fspecjs) -->
+[![npm version](https://badge.fury.io/js/%40break-point%2Fspecjs.svg)](https://badge.fury.io/js/%40break-point%2Fspecjs)
+[![Try match-toy on RunKit](https://badge.runkitcdn.com/%40break-point%2Fspecjs.svg)](https://npm.runkit.com/%40break-point%2Fspecjs)
 [![codecov](https://codecov.io/gh/breakpoint-blog/spec-js/branch/master/graph/badge.svg)](https://codecov.io/gh/breakpoint-blog/spec-js)
 
 > **THIS LIBRARY STILL IN EARLY DEVELOPMENT, IT'S NOT STABLE, AND USAGE IN PRODUCTION IS NOT RECOMMENDED YET.**
@@ -17,23 +17,23 @@
 ## Installation
 #### From NPM
 ```sh
-$ npm install @breakpoint-blog/spec-js --save
+$ npm install @break-point/specjs --save
 ```
 Or yarn:
 ```sh
-$ yarn add @breakpoint-blog/spec-js
+$ yarn add @break-point/specjs
 ```
 Then import/require the module.
 ```javascript
-const SpecJS = require('@breakpoint-blog/spec-js');
+const SpecJS = require('@break-point/specjs');
 // or
-import { bindSpec } from '@breakpoint-blog/spec-js';
+import { bindSpec } from '@break-point/specjs';
 ```
 
 #### From CDN
 Place the snippet into your html:
 ```html
-<script src="https://unpkg.com/@breakpoint-blog/spec-js@0.0.1/dist/specjs.umd.js"></script>
+<script src="https://unpkg.com/@break-point/specjs@0.0.1/dist/specjs.umd.js"></script>
 ```
 
 This file is a bundle in the [UMD](https://github.com/umdjs/umd) format. In the browser's environments, the module name is in available in `window.SpecJS`.
@@ -44,7 +44,7 @@ See more in [examples](./examples).
 ## Usage
 Most basic usage:
 ```typescript
-import { Sign, conditions, isRequired, check } from '@breakpoint-blog/spec-js';
+import { Sign, conditions, isRequired, check } from 'break-point/specjs';
 
 // 1. Write the Contract
 const toUpperContract = (text: string) => ({

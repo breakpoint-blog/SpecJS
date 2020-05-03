@@ -1,4 +1,4 @@
-const SpecJS = require('@alfonsofilho/specjs')
+const SpecJS = require('@break-point/specjs')
 
 const ExampleContract = {
   pre(a) {

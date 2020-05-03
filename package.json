@@ -1,5 +1,5 @@
 {
-  "name": "@alfonsofilho/specjs",
+  "name": "@break-point/specjs",
   "version": "0.0.2",
   "description": "Design by contract javascript library",
   "keywords": [
@@ -25,9 +25,9 @@
     "build": "microbundle -i src/specjs.ts -o dist --name SpecJS"
   },
   "author": "Alfonso Filho <alfonsocfilho@gmail.com>",
-  "homepage": "https://alfonsofilho.github.io/SpecJS",
-  "bugs": "https://github.com/AlfonsoFilho/specjs/issues",
-  "repository": "github:AlfonsoFilho/specjs",
+  "homepage": "https://breakpoint-blog.github.io/spec-js/",
+  "bugs": "https://github.com/breakpoint-blog/spec-js/issues",
+  "repository": "github:breakpoint-blog/spec-js",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "25.1.4",
